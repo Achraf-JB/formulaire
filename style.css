@@ -1,0 +1,64 @@
+.container{
+     background-image: url(./Is-Computer-Coding-Useful-for-the-Average-Person-1024x683.jpg);
+    background-repeat: no-repeat;
+  background-attachment: fixed; 
+   background-size: 100% 100%; 
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+ 
+}
+.box-title{
+    text-align: center;
+    width: 60%;
+    color: #FFFFFF;
+   
+}
+.box-title>h1{
+font-size: 2.5rem;}
+
+.box-title>h3{
+font-weight: lighter;
+font-size: 1.3rem;
+font-style: italic;
+}
+.box-form{
+   background-color: #949ca1; 
+   box-shadow: 14px 9px 1px rgba(0, 0, 0, 0.488);
+   opacity: 0.8;
+  width: 60%;
+  border-radius: 5px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3rem;
+  line-height: 1.7rem;
+  margin-bottom: 15px;
+
+
+}
+.box{
+    width: 100%;
+    background-color:#FFFFFF ;
+    height: 30px;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+}
+.box-textarea{
+    width: 100%;
+    background-color:#FFFFFF ;
+    height: 100px;
+    font-size: 1.1rem;
+
+}
+.submit{
+    width: 100%;
+    background-color:#37AF65 ;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
